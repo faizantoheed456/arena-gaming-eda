@@ -16,13 +16,20 @@
 --              COMMUNITY_GAME have data only for community IDs
 --              1 to 200. IDs 201 to 357 need to be added later.
 -- ============================================================
-
+-- FIXES APPLIED:
+--   COMMUNITY_GAME: added missing FOREIGN KEY on `game_id`
+--                   referencing GAME(game_id)
+--   COMMUNITY_SOCIAL_MEDIA: added missing FOREIGN KEY on
+--                   `social_platform_id` referencing
+--                   SOCIAL_PLATFORM(social_platform_id)
+-- ============================================================
+ 
 SET FOREIGN_KEY_CHECKS = 0;
-
+ 
 DROP VIEW  IF EXISTS `vw_complete_community_profiles`;
 DROP VIEW  IF EXISTS `vw_community_metrics_dashboard`;
 DROP VIEW  IF EXISTS `vw_community_game_assignments`;
-
+ 
 DROP TABLE IF EXISTS `COMMUNITY_GAME`;
 DROP TABLE IF EXISTS `COMMUNITY_SOCIAL_MEDIA`;
 DROP TABLE IF EXISTS `COMMUNITY_STAFF`;
@@ -31,24 +38,24 @@ DROP TABLE IF EXISTS `COMMUNITY_MEMBERSHIP`;
 DROP TABLE IF EXISTS `COMMUNITY`;
 DROP TABLE IF EXISTS `COMMUNITY_REGION`;
 DROP TABLE IF EXISTS `GAMING_PLATFORM`;
-
+ 
 SET FOREIGN_KEY_CHECKS = 1;
-
-
+ 
+ 
 -- ============================================================
 -- TABLE DEFINITIONS
 -- ============================================================
-
+ 
 CREATE TABLE `COMMUNITY_REGION` (
     `region_id`    INT          AUTO_INCREMENT PRIMARY KEY,
     `region_name`  VARCHAR(100) NOT NULL
 );
-
+ 
 CREATE TABLE `GAMING_PLATFORM` (
     `gaming_platform_id`  INT          AUTO_INCREMENT PRIMARY KEY,
     `platform_name`       VARCHAR(100) NOT NULL
 );
-
+ 
 CREATE TABLE `COMMUNITY` (
     `community_id`   INT             AUTO_INCREMENT PRIMARY KEY,
     `community_name` VARCHAR(255)    NOT NULL,
@@ -64,7 +71,7 @@ CREATE TABLE `COMMUNITY` (
         REFERENCES `GAMING_PLATFORM`(`gaming_platform_id`)
         ON DELETE SET NULL ON UPDATE CASCADE
 );
-
+ 
 CREATE TABLE `COMMUNITY_MEMBERSHIP` (
     `membership_id`  INT AUTO_INCREMENT PRIMARY KEY,
     `community_id`   INT NOT NULL,
@@ -74,7 +81,7 @@ CREATE TABLE `COMMUNITY_MEMBERSHIP` (
         REFERENCES `COMMUNITY`(`community_id`)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
-
+ 
 CREATE TABLE `COMMUNITY_COMPETITION` (
     `competition_id`     INT AUTO_INCREMENT PRIMARY KEY,
     `community_id`       INT NOT NULL,
@@ -84,7 +91,7 @@ CREATE TABLE `COMMUNITY_COMPETITION` (
         REFERENCES `COMMUNITY`(`community_id`)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
-
+ 
 CREATE TABLE `COMMUNITY_STAFF` (
     `staff_id`         INT AUTO_INCREMENT PRIMARY KEY,
     `community_id`     INT NOT NULL,
@@ -94,7 +101,10 @@ CREATE TABLE `COMMUNITY_STAFF` (
         REFERENCES `COMMUNITY`(`community_id`)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
-
+ 
+-- FIX: added FOREIGN KEY on `social_platform_id` referencing
+--      SOCIAL_PLATFORM(social_platform_id) to enforce referential
+--      integrity and prevent invalid platform IDs being inserted.
 CREATE TABLE `COMMUNITY_SOCIAL_MEDIA` (
     `community_social_id` INT AUTO_INCREMENT PRIMARY KEY,
     `community_id`        INT NOT NULL,
@@ -102,24 +112,33 @@ CREATE TABLE `COMMUNITY_SOCIAL_MEDIA` (
     `platform_size`       INT DEFAULT 0,
     FOREIGN KEY (`community_id`)
         REFERENCES `COMMUNITY`(`community_id`)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (`social_platform_id`)
+        REFERENCES `SOCIAL_PLATFORM`(`social_platform_id`)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
-
+ 
+-- FIX: added FOREIGN KEY on `game_id` referencing GAME(game_id)
+--      to enforce referential integrity and prevent invalid
+--      game IDs being inserted.
 CREATE TABLE `COMMUNITY_GAME` (
-    `community_id`    INT          NOT NULL,
-    `game_id`         INT          NOT NULL,
+    `community_id`     INT          NOT NULL,
+    `game_id`          INT          NOT NULL,
     `play_designation` VARCHAR(100),
     PRIMARY KEY (`community_id`, `game_id`),
     FOREIGN KEY (`community_id`)
         REFERENCES `COMMUNITY`(`community_id`)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (`game_id`)
+        REFERENCES `GAME`(`game_id`)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
-
-
+ 
+ 
 -- ============================================================
 -- DATA INSERTIONS
 -- ============================================================
-
+ 
 -- Lookup: region names used by communities
 INSERT INTO `COMMUNITY_REGION` (`region_id`, `region_name`) VALUES
 (1,  'North America'),   (2,  'Europe'),         (3,  'Asia-Pacific'),
@@ -156,7 +175,7 @@ INSERT INTO `COMMUNITY_REGION` (`region_id`, `region_name`) VALUES
 (94, 'Taiwan'),          (95, 'Hong Kong'),       (96, 'Macau'),
 (97, 'Mongolia'),        (98, 'Kazakhstan'),      (99, 'Uzbekistan'),
 (100,'Azerbaijan');
-
+ 
 -- Lookup: gaming platforms communities operate on
 INSERT INTO `GAMING_PLATFORM` (`gaming_platform_id`, `platform_name`) VALUES
 (1, 'PC Steam'),
@@ -164,7 +183,7 @@ INSERT INTO `GAMING_PLATFORM` (`gaming_platform_id`, `platform_name`) VALUES
 (3, 'PlayStation Network'),
 (4, 'Xbox Live'),
 (5, 'Nintendo Switch Online');
-
+ 
 -- Community profiles: 357 records
 INSERT INTO `COMMUNITY` (`community_id`, `community_name`, `year_founded`, `avg_member_age`, `community_tier`, `region_id`, `gaming_platform_id`) VALUES
 (1, 'Nitro Wolves', 2020, 17.1, 'Amateur', 1, 1),
@@ -524,7 +543,7 @@ INSERT INTO `COMMUNITY` (`community_id`, `community_name`, `year_founded`, `avg_
 (355, 'Sky Walker', 2020, 22.20, 'Semi-Pro', 6, 2),
 (356, 'Star Walker', 2021, 23.10, 'Amateur', 7, 2),
 (357, 'Sun Walker', 2016, 22.70, 'Amateur', 8, 2);
-
+ 
 -- Membership: complete for all 357 communities
 INSERT INTO `COMMUNITY_MEMBERSHIP` (`community_id`, `member_count`, `active_players`) VALUES
 (1, 421, 243), (2, 166, 77), (3, 115, 36), (4, 181, 104), (5, 2800, 1056),
@@ -599,7 +618,7 @@ INSERT INTO `COMMUNITY_MEMBERSHIP` (`community_id`, `member_count`, `active_play
 (346, 899, 239), (347, 58240, 12437), (348, 510, 146), (349, 1623, 781), (350, 14577, 4811),
 (351, 50, 26), (352, 11406, 1953), (353, 715, 345), (354, 191, 128), (355, 210, 110),
 (356, 3074, 926), (357, 10459, 2863);
-
+ 
 -- Competitions: complete for all 357 communities
 INSERT INTO `COMMUNITY_COMPETITION` (`community_id`, `tournaments_hosted`, `top_player_rank`) VALUES
 (1, 0, 6846), (2, 0, 6846), (3, 0, 2523), (4, 6, 2523), (5, 5, 2523),
@@ -674,7 +693,7 @@ INSERT INTO `COMMUNITY_COMPETITION` (`community_id`, `tournaments_hosted`, `top_
 (346, 0, 1840), (347, 0, 6879), (348, 0, 6879), (349, 0, 5086), (350, 0, 1173),
 (351, 0, 1173), (352, 6, 5179), (353, 6, 5179), (354, 0, 9843), (355, 0, 4174),
 (356, 1, 4174), (357, 0, 4174);
-
+ 
 -- Staff: data available only for communities 1 to 200
 -- Communities 201 to 357 need their staff data added later
 INSERT INTO `COMMUNITY_STAFF` (`community_id`, `coaching_staff`, `content_creators`) VALUES
@@ -730,7 +749,7 @@ INSERT INTO `COMMUNITY_STAFF` (`community_id`, `coaching_staff`, `content_creato
 (346, 0, 0), (347, 3, 4), (348, 0, 0), (349, 0, 1), (350, 2, 4),
 (351, 0, 2), (352, 1, 0), (353, 2, 3), (354, 0, 0), (355, 0, 0),
 (356, 0, 0), (357, 0, 0);
-
+ 
 -- Social media sizes: data available only for communities 1 to 200
 -- Bug fixed: removed the erroneous period before the semicolon on the last row
 -- Communities 201 to 357 need their social media data added later
@@ -785,7 +804,7 @@ INSERT INTO `COMMUNITY_SOCIAL_MEDIA` (`community_id`, `social_platform_id`, `pla
 (189, 1, 269), (189, 2, 132), (190, 1, 233), (190, 2, 46), (191, 1, 0), (191, 2, 120), (192, 1, 90433), (192, 2, 10853),
 (193, 1, 80), (193, 2, 10), (194, 1, 395), (194, 2, 121), (195, 1, 536), (195, 2, 0), (196, 1, 90), (196, 2, 21),
 (197, 1, 348), (197, 2, 66), (198, 1, 1303), (198, 2, 623), (199, 1, 134), (199, 2, 34), (200, 1, 7141), (200, 2, 1017);
-
+ 
 -- Game assignments: data available only for communities 1 to 200
 -- Communities 201 to 357 need their game assignments added later
 INSERT INTO `COMMUNITY_GAME` (`community_id`, `game_id`, `play_designation`) VALUES
@@ -1146,12 +1165,12 @@ INSERT INTO `COMMUNITY_GAME` (`community_id`, `game_id`, `play_designation`) VAL
 (355, 12, 'Primary'),
 (356, 16, 'Primary'), (356, 15, 'Secondary'),
 (357, 7, 'Primary'), (357, 8, 'Secondary');
-
-
+ 
+ 
 -- ============================================================
 -- VIEWS
 -- ============================================================
-
+ 
 CREATE OR REPLACE VIEW vw_complete_community_profiles AS
 SELECT
     c.community_id,
@@ -1164,7 +1183,7 @@ SELECT
 FROM `COMMUNITY` c
 LEFT JOIN `COMMUNITY_REGION`  r  ON c.region_id           = r.region_id
 LEFT JOIN `GAMING_PLATFORM`   gp ON c.gaming_platform_id  = gp.gaming_platform_id;
-
+ 
 CREATE OR REPLACE VIEW vw_community_metrics_dashboard AS
 SELECT
     c.community_id,
@@ -1183,7 +1202,7 @@ LEFT JOIN `GAMING_PLATFORM`   gp   ON c.gaming_platform_id  = gp.gaming_platform
 INNER JOIN `COMMUNITY_MEMBERSHIP`  m    ON c.community_id = m.community_id
 INNER JOIN `COMMUNITY_COMPETITION` comp ON c.community_id = comp.community_id
 INNER JOIN `COMMUNITY_STAFF`       s    ON c.community_id = s.community_id;
-
+ 
 CREATE OR REPLACE VIEW vw_community_game_assignments AS
 SELECT
     cg.community_id,
@@ -1192,16 +1211,16 @@ SELECT
     cg.play_designation
 FROM `COMMUNITY_GAME` cg
 INNER JOIN `COMMUNITY` c USING (community_id);
-
+ 
 SET FOREIGN_KEY_CHECKS = 1;
-
-
+ 
+ 
 -- ============================================================
 -- VERIFICATION QUERIES
 -- ============================================================
-
+ 
 SELECT * FROM vw_complete_community_profiles;
-
+ 
 SELECT * FROM vw_community_metrics_dashboard;
-
+ 
 SELECT * FROM vw_community_game_assignments ORDER BY community_name ASC;

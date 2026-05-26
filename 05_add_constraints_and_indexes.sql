@@ -1,8 +1,16 @@
 -- ============================================================
 -- FILE 5 OF 5: ADD CONSTRAINTS AND INDEXES (3 phases)
 -- Purpose : Add CHECK constraints, DEFAULT values, NOT NULL,
---           and indexes to optimize queries.
+--           UNIQUE constraints, and indexes to optimize queries.
 -- Run this file AFTER 01, 02, 03, and 04.
+-- ============================================================
+-- FIXES APPLIED:
+--   Phase 2: Removed invalid inline comment from PLATFORM_TYPE
+--            ALTER statement (was causing a syntax error).
+--   Phase 2B (new): Added UNIQUE constraints on community_id
+--            for COMMUNITY_MEMBERSHIP, COMMUNITY_COMPETITION,
+--            and COMMUNITY_STAFF to enforce the intended 1-to-1
+--            relationship and prevent duplicate/double-counted rows.
 -- ============================================================
 
 SET FOREIGN_KEY_CHECKS = 0;
@@ -106,7 +114,8 @@ MODIFY `region_name` VARCHAR(100) NOT NULL;
 ALTER TABLE `GAMING_PLATFORM`
 MODIFY `platform_name` VARCHAR(100) NOT NULL;
 
-ALTER TABLE `PLATFORM_TYPE` (from file 01)
+-- From file 01:
+ALTER TABLE `PLATFORM_TYPE`
 MODIFY `type_name` VARCHAR(100) NOT NULL;
 
 ALTER TABLE `PLATFORM`
@@ -129,6 +138,22 @@ MODIFY `country_name` VARCHAR(100) NOT NULL;
 
 ALTER TABLE `COUNTRY_LOCATION`
 MODIFY `region` VARCHAR(100) NOT NULL;
+
+-- ============================================================
+-- PHASE 2B: ADD UNIQUE CONSTRAINTS TO ENFORCE 1-TO-1 RELATIONSHIPS
+-- ============================================================
+
+-- 2.8 Prevent multiple rows per community in satellite tables
+--     (without these, a community could have duplicate membership/competition/staff
+--      rows, causing double-counting in aggregate queries)
+ALTER TABLE `COMMUNITY_MEMBERSHIP`
+ADD CONSTRAINT uq_membership_community UNIQUE (`community_id`);
+
+ALTER TABLE `COMMUNITY_COMPETITION`
+ADD CONSTRAINT uq_competition_community UNIQUE (`community_id`);
+
+ALTER TABLE `COMMUNITY_STAFF`
+ADD CONSTRAINT uq_staff_community UNIQUE (`community_id`);
 
 -- ============================================================
 -- PHASE 3: ADD INDEXES FOR PERFORMANCE
