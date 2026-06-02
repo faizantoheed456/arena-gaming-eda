@@ -1,11 +1,6 @@
--- ============================================================
--- FILE 4 OF 4: ANALYTICAL QUERIES
--- Purpose : 12 SELECT queries demonstrating joins, aggregation,
---           filtering, grouping, subqueries, and window functions.
--- Run this file AFTER 01, 02, and 03 have been executed.
--- ============================================================
 
--- 1. Basic retrieval with join: List all communities with their region and primary gaming platform
+-- 12 SELECT queries: joins, aggregation, filtering, subqueries, window functions.
+-- List all communities with their region and primary gaming platform
 SELECT 
     c.community_name,
     c.community_tier,
@@ -17,7 +12,7 @@ LEFT JOIN GAMING_PLATFORM gp ON c.gaming_platform_id = gp.gaming_platform_id
 ORDER BY c.community_name
 LIMIT 20;
 
--- 2. Aggregation with GROUP BY: Average member count and total tournaments hosted per community tier
+-- Average member count and total tournaments hosted per community tier
 SELECT 
     c.community_tier,
     COUNT(*) AS num_communities,
@@ -29,7 +24,7 @@ JOIN COMMUNITY_COMPETITION comp ON c.community_id = comp.community_id
 GROUP BY c.community_tier
 ORDER BY avg_members DESC;
 
--- 3. Filtering with WHERE: Communities with more than 5000 active players and at least 10 tournaments hosted
+-- Communities with more than 5000 active players and at least 10 tournaments hosted
 SELECT 
     c.community_name,
     m.active_players,
@@ -40,7 +35,7 @@ JOIN COMMUNITY_COMPETITION comp ON c.community_id = comp.community_id
 WHERE m.active_players > 5000 AND comp.tournaments_hosted >= 10
 ORDER BY m.active_players DESC;
 
--- 4. Join across multiple tables: Show communities, their primary game, genre, and social media reach
+-- Show communities, their primary game, genre, and social media reach
 SELECT 
     c.community_name,
     g.game_name AS primary_game,
@@ -55,7 +50,7 @@ LEFT JOIN COMMUNITY_SOCIAL_MEDIA sm ON c.community_id = sm.community_id
 GROUP BY c.community_id, c.community_name, g.game_name, ge.genre_name
 LIMIT 20;
 
--- 5. Subquery: Communities with member count above the average member count of their region
+-- Communities with member count above the average member count of their region
 SELECT 
     c.community_name,
     r.region_name,
@@ -76,7 +71,7 @@ WHERE m.member_count > (
 ORDER BY m.member_count DESC
 LIMIT 20;
 
--- 6. Correlated subquery: Communities that have hosted more tournaments than the average of their tier
+-- Communities that have hosted more tournaments than the average of their tier
 SELECT 
     c.community_name,
     c.community_tier,
@@ -95,7 +90,7 @@ WHERE comp.tournaments_hosted > (
 )
 ORDER BY comp.tournaments_hosted DESC;
 
--- 7. Aggregation with HAVING: Regions with average community age > 25 and total members > 500,000
+-- Regions with average community age > 25 and total members > 500,000
 SELECT 
     r.region_name,
     AVG(c.avg_member_age) AS avg_age,
@@ -107,7 +102,7 @@ GROUP BY r.region_name
 HAVING AVG(c.avg_member_age) > 25 AND SUM(m.member_count) > 500000
 ORDER BY total_members DESC;
 
--- 8. Window function: Rank communities by active players within each tier
+-- Rank communities by active players within each tier
 SELECT 
     c.community_name,
     c.community_tier,
@@ -118,7 +113,7 @@ JOIN COMMUNITY_MEMBERSHIP m ON c.community_id = m.community_id
 ORDER BY c.community_tier, rank_in_tier
 LIMIT 30;
 
--- 9. Complex join with multiple conditions: Top 10 communities by total social media presence (Discord + Reddit)
+-- Top 10 communities by total social media presence (Discord + Reddit)
 SELECT 
     c.community_name,
     COALESCE(discord.size, 0) + COALESCE(reddit.size, 0) AS total_social,
@@ -130,7 +125,7 @@ LEFT JOIN COMMUNITY_SOCIAL_MEDIA reddit ON c.community_id = reddit.community_id 
 ORDER BY total_social DESC
 LIMIT 10;
 
--- 10. Subquery in SELECT: For each community, show number of games they play (primary + secondary)
+-- For each community, show number of games they play (primary + secondary)
 SELECT 
     c.community_name,
     (SELECT COUNT(*) FROM COMMUNITY_GAME cg WHERE cg.community_id = c.community_id) AS total_games_played
@@ -138,7 +133,7 @@ FROM COMMUNITY c
 ORDER BY total_games_played DESC
 LIMIT 20;
 
--- 11. Using EXISTS: Communities that have at least one tournament hosted and also have coaching staff
+-- Communities that have at least one tournament hosted and also have coaching staff
 SELECT 
     c.community_name,
     comp.tournaments_hosted,
@@ -151,7 +146,7 @@ WHERE EXISTS (SELECT 1 FROM COMMUNITY_COMPETITION comp2 WHERE comp2.community_id
 ORDER BY comp.tournaments_hosted DESC
 LIMIT 20;
 
--- 12. Self-join (via game): Communities that share the same primary game
+-- Communities that share the same primary game
 SELECT 
     g.game_name,
     c1.community_name AS community_1,
