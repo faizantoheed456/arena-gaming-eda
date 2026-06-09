@@ -1,0 +1,358 @@
+community_id,community_name,region_name,gaming_platform,member_count,active_players,tournaments_hosted,top_player_rank,coaching_staff,content_creators
+1,Nitro Wolves,North America,PC Steam,421,243,0,6846,0,2
+2,Arcane Wolves,Europe,PC Steam,166,77,0,6846,0,1
+3,Storm Front,Asia-Pacific,Discord Hub,115,36,0,2523,0,0
+4,Frost Warriors,South America,Discord Hub,181,104,6,2523,3,14
+5,Frozen North,Africa,Discord Hub,2800,1056,5,2523,0,3
+6,Eco Force,United States,PlayStation Network,1078,345,11,789,3,8
+7,Hellfire,United Kingdom,PlayStation Network,332,131,9,789,4,6
+8,Iron Wolves,Canada,Discord Hub,3085,1149,0,3141,1,1
+9,Clutch Factor,Germany,Discord Hub,1259,614,0,4648,0,1
+10,Speed Demons,France,PlayStation Network,8635,2004,1,4648,0,1
+11,Raging Bulls,Australia,Discord Hub,3020,975,11,2960,1,3
+12,Iron Tide,South Korea,Discord Hub,913,451,0,5901,0,0
+13,Byte Force,Japan,Discord Hub,9665,3270,3,5901,0,1
+14,Ace Pack,Brazil,Xbox Live,50,26,0,2617,0,1
+15,Neon Riders,Nordic,Nintendo Switch Online,1099,284,0,2617,0,2
+16,Neon Wolves,Eastern Europe,PlayStation Network,560,295,0,6993,0,0
+17,Thundercats,Middle East,Discord Hub,1663,824,4,6993,0,0
+18,Lunar Strike,Southeast Asia,Discord Hub,213,157,0,6993,0,0
+19,Flash Clan,Mexico,PlayStation Network,178,77,0,6993,0,1
+20,Sunfire,Oceania,Discord Hub,115,61,0,6993,0,0
+21,Black Hole Squad,Global East,Nintendo Switch Online,3842,1341,6,3992,1,0
+22,Solar Monks,Global West,Discord Hub,1089,500,12,7197,0,0
+23,Packet Loss,Central America,Discord Hub,1054,505,0,7197,0,1
+24,Thunder Legion,Iberia,Discord Hub,1844,670,0,7197,0,1
+25,Pixel Storm,Benelux,PlayStation Network,147,71,0,7197,0,1
+26,Midnight Blade,Italy,Discord Hub,533,203,0,5007,0,0
+27,Flick Masters,Spain,Discord Hub,367,164,0,2230,0,2
+28,Galaxy Pact,Portugal,PC Steam,656,174,0,9128,0,0
+29,Reaper Crew,Netherlands,Discord Hub,68819,8596,0,441,7,0
+30,War Eagles,Belgium,Discord Hub,92,58,6,8058,2,0
+31,Neon Flash,Switzerland,Discord Hub,674,377,0,8058,0,1
+32,Entry Fraggers,Austria,PlayStation Network,573,287,0,8058,0,1
+33,Dark Energy,Poland,Discord Hub,105,41,0,8058,0,0
+34,Primal Rage,Turkey,Discord Hub,607,174,2,1521,0,0
+35,Equinox Force,Ukraine,Discord Hub,2338,1228,0,3916,0,2
+36,Broken Arrow Real,Czech Republic,Discord Hub,164,89,0,7434,0,2
+37,War Hammer,Hungary,Xbox Live,13712,3220,0,5267,2,3
+38,Starfall,Romania,Discord Hub,1873,782,5,3612,0,4
+39,Black Ops Unit,Bulgaria,Discord Hub,289,153,0,3612,0,0
+40,Warp Riders,Greece,Xbox Live,11475,1956,6,5179,2,0
+41,Desert Fox,Croatia,PlayStation Network,803,374,6,5179,2,1
+42,Crossfire Unit,Serbia,Discord Hub,191,128,0,9843,0,0
+43,Havoc Unit,Slovakia,Xbox Live,210,110,0,4174,0,2
+44,Iron Sharks,Slovenia,Nintendo Switch Online,3074,926,1,4174,2,1
+45,Solar Ascent,Estonia,Discord Hub,10459,2863,0,4174,0,5
+46,Input Lag,Latvia,Nintendo Switch Online,50,18,0,2536,0,0
+47,Typhoon,Lithuania,Discord Hub,3839,1285,0,2536,0,0
+48,Momentum Pack,Finland,PC Steam,595,279,3,2536,2,4
+49,Ghost Wolves,Sweden,Nintendo Switch Online,508,202,0,2536,0,0
+50,Viper Strike,Norway,Discord Hub,58,38,0,2536,0,1
+51,Phantom Strike,Denmark,Discord Hub,50,23,0,2536,0,0
+52,Impact Wolves,Iceland,Nintendo Switch Online,652,271,2,2536,0,2
+53,Dragon Scale,Ireland,Nintendo Switch Online,754,263,0,4249,0,0
+54,Ghost Protocol,New Zealand,PC Steam,50,18,4,8099,2,1
+55,Dusk Raiders,Singapore,Discord Hub,637,305,0,8099,0,2
+56,Sky Wolves,Malaysia,PC Steam,13592,3900,7,4183,1,0
+57,Arcane Brotherhood,Thailand,PlayStation Network,3994,1059,0,8550,0,1
+58,Plateau Riders,Vietnam,Discord Hub,1875,680,0,8550,0,1
+59,Savage Storm,Philippines,Discord Hub,117,82,3,5904,0,5
+60,Shadow Reapers,Indonesia,Discord Hub,330,86,0,8762,0,1
+61,Helix Hunters,India,Discord Hub,7782,2466,0,1889,2,3
+62,Spike Rush,Pakistan,Discord Hub,235,129,0,9123,0,2
+63,Crystal Spire,Bangladesh,Discord Hub,102,42,0,8748,0,2
+64,Eclipse Hunters,Sri Lanka,PlayStation Network,5950,1927,6,393,3,12
+65,Eclipse Hunters B,Saudi Arabia,Xbox Live,1265,408,0,3097,0,2
+66,Neon Surge,UAE,PC Steam,7339,1265,0,2060,0,5
+67,Solstice Squad,Egypt,Discord Hub,922,379,2,2060,0,0
+68,Velocity,South Africa,Discord Hub,440,222,8,4659,0,2
+69,Dark Matter,Nigeria,PC Steam,207,93,0,1029,0,2
+70,Forest Wolves,Kenya,Discord Hub,19467,3384,0,1029,2,6
+71,Storm Hawks,Morocco,Discord Hub,1777,646,0,4999,0,0
+72,Stellar Blaze,Algeria,Discord Hub,170,119,0,4603,0,2
+73,Warpath,Tunisia,PC Steam,15277,5303,0,286,2,9
+74,Orbital Strike,Argentina,Nintendo Switch Online,581,246,0,5734,0,0
+75,Sky Titans,Chile,Discord Hub,374,149,0,5734,0,1
+76,Shadow Council,Colombia,Xbox Live,1486,671,3,5734,2,3
+77,Emerald Legion,Peru,Nintendo Switch Online,50,31,5,5734,2,2
+78,Night Stalker,Venezuela,PC Steam,500,104,7,5734,2,2
+79,Pale Riders,Ecuador,Discord Hub,443,257,0,564,0,1
+80,Antimatter Legion,Uruguay,PlayStation Network,3071,1034,0,564,1,5
+81,Sakura Blades,Paraguay,PlayStation Network,2733,923,0,564,2,5
+82,Rustic Raiders,Bolivia,Discord Hub,8541,2486,0,564,2,0
+83,Phantom Legion,Costa Rica,Nintendo Switch Online,899,239,0,1840,0,0
+84,Thunder Clan,Panama,PlayStation Network,2378,1248,0,1840,1,2
+85,Crimson Dragon,Guatemala,Discord Hub,572,212,0,1840,0,2
+86,Raider Nation,Honduras,Discord Hub,481,172,0,1840,0,1
+87,Specter Division,El Salvador,Discord Hub,158,60,6,2401,1,0
+88,Frost Legion,Nicaragua,PC Steam,187,129,0,2401,0,0
+89,Rapid Fire,Dominican Republic,Discord Hub,498,309,2,1424,0,2
+90,Neon Eagles,Puerto Rico,Discord Hub,286,155,0,3078,0,0
+91,Rune Masters,Jamaica,Discord Hub,550,272,8,3078,0,5
+92,Crimson Pact,Trinidad,PlayStation Network,2003,576,4,3078,0,2
+93,Chaos Legion,China,Discord Hub,2596,1362,1,1138,0,2
+94,Hellstorm,Taiwan,Nintendo Switch Online,3185,1104,0,441,2,5
+95,Solar Wings,Hong Kong,Discord Hub,8936,2204,0,441,2,5
+96,Silent Killers,Macau,Discord Hub,400,254,0,441,0,0
+97,Wild Fire,Mongolia,Discord Hub,811,348,0,441,0,1
+98,Fallen Angels,Kazakhstan,PC Steam,31155,5584,0,441,1,14
+99,Titan Fall,Uzbekistan,Discord Hub,282,110,5,2546,2,2
+100,Void Reapers,Azerbaijan,PlayStation Network,265,167,5,2546,1,5
+101,Shadow Hunters,United States,Discord Hub,282,110,5,2546,2,2
+102,Vortex Clan,United States,Discord Hub,265,167,5,2546,1,5
+103,Aero Force,United Kingdom,Discord Hub,11406,1953,6,5179,2,0
+104,Titan Guard,Canada,Discord Hub,715,345,6,5179,2,1
+105,Viper Force,Germany,PlayStation Network,191,128,0,9843,0,0
+106,Phantom Unit,France,Discord Hub,210,110,0,4174,0,2
+107,Cyber Wolves,Australia,Discord Hub,3074,926,1,4174,2,1
+108,Solar Guardians,South Korea,Xbox Live,10459,2863,0,4174,0,5
+109,Warp Zone,Japan,PC Steam,50,18,0,2536,0,0
+110,Blaze Guard,Brazil,Discord Hub,3839,1285,0,2536,0,0
+111,Silent Shadows,Nordic,Discord Hub,595,279,3,2536,2,4
+112,Ghost Guard,Eastern Europe,Discord Hub,508,202,0,2536,0,0
+113,Rogue Wave,Middle East,Nintendo Switch Online,58,38,0,2536,0,1
+114,Neon Tide,Southeast Asia,Nintendo Switch Online,50,23,0,2536,0,0
+115,Primal Surge,Mexico,Discord Hub,652,271,2,2536,0,2
+116,Shadow Pack,Oceania,Discord Hub,754,263,0,4249,0,0
+117,Delta Squad,Global East,PC Steam,50,18,4,8099,2,1
+118,Alpha Wolves,Global West,Discord Hub,637,305,0,8099,0,2
+119,Nova Force,Central America,PC Steam,13592,3900,7,4183,1,0
+120,Savage Claws,Iberia,Discord Hub,3994,1059,0,8550,0,1
+121,Rogue Agents,Benelux,Discord Hub,1875,680,0,8550,0,1
+122,Frost Bite,Italy,Discord Hub,117,82,3,5904,0,5
+123,Static Shock,Spain,Discord Hub,330,86,0,8762,0,1
+124,Vector Force,Portugal,PC Steam,7782,2466,0,1889,2,3
+125,Apex Guard,Netherlands,Discord Hub,235,129,0,9123,0,2
+126,Iron Brotherhood,Belgium,Discord Hub,102,42,0,8748,0,2
+127,Neon Dragons,Switzerland,Discord Hub,5950,1927,6,393,3,12
+128,Shadow Rangers,Austria,Discord Hub,1265,408,0,3097,0,2
+129,Cyber Strike,Poland,Discord Hub,7339,1265,0,2060,0,5
+130,Warp Force,Turkey,PC Steam,922,379,2,2060,0,0
+131,Solar Flares,Ukraine,Discord Hub,440,222,8,4659,0,2
+132,Stellar Raiders,Czech Republic,PC Steam,207,93,0,1029,0,2
+133,Primal Vanguard,Hungary,Discord Hub,19467,3384,0,1029,2,6
+134,Giga Byte,Romania,Discord Hub,1777,646,0,4999,0,0
+135,Dark Legion,Bulgaria,Discord Hub,170,119,0,4603,0,2
+136,Neon Vanguard,Greece,PC Steam,15277,5303,0,286,2,9
+137,Spectral Wolves,Croatia,Discord Hub,581,246,0,5734,0,0
+138,Phoenix Flame,Serbia,PlayStation Network,374,149,0,5734,0,1
+139,Frost Vanguard,Slovakia,Discord Hub,1486,671,3,5734,2,3
+140,Iron Elite,Slovenia,Discord Hub,50,31,5,5734,2,2
+141,Midnight Shadows,Estonia,Discord Hub,500,104,7,5734,2,2
+142,Delta Force,Latvia,Discord Hub,443,257,0,564,0,1
+143,Cyber Elite,Lithuania,Discord Hub,3071,1034,0,564,1,5
+144,Echo Elite,Finland,Discord Hub,2733,923,0,564,2,5
+145,Solar Elite,Sweden,Discord Hub,8541,2486,0,564,2,0
+146,Stellar Elite,Norway,Xbox Live,899,239,0,1840,0,0
+147,Warp Elite,Denmark,PC Steam,2378,1248,0,1840,1,2
+148,Primal Elite,Iceland,Discord Hub,572,212,0,1840,0,2
+149,Neon Elite,Ireland,Discord Hub,481,172,0,1840,0,1
+150,Shadow Elite,New Zealand,Discord Hub,158,60,6,2401,1,0
+151,Cyber Guard,Singapore,Nintendo Switch Online,187,129,0,2401,0,0
+152,Vector Guard,Malaysia,Nintendo Switch Online,498,309,2,1424,0,2
+153,Apex Elite,Thailand,Discord Hub,286,155,0,3078,0,0
+154,Iron Guard,Vietnam,Discord Hub,550,272,8,3078,0,5
+155,Midnight Elite,Philippines,PC Steam,2003,576,4,3078,0,2
+156,Delta Guard,Indonesia,Discord Hub,2596,1362,1,1138,0,2
+157,Echo Guard,India,PC Steam,3185,1104,0,441,2,5
+158,Solar Shield,Pakistan,Discord Hub,8936,2204,0,441,2,5
+159,Stellar Guard,Bangladesh,Discord Hub,400,254,0,441,0,0
+160,Warp Guard,Sri Lanka,Discord Hub,811,348,0,441,0,1
+161,Primal Shield,Saudi Arabia,Discord Hub,31155,5584,0,441,1,14
+162,Neon Shield,UAE,PC Steam,282,110,5,2546,2,2
+163,Shadow Shield,Egypt,Discord Hub,265,167,5,2546,1,5
+164,Cyber Shield,South Africa,Discord Hub,421,243,0,6846,0,2
+165,Vector Shield,Nigeria,Discord Hub,166,77,0,6846,0,1
+166,Apex Shield,Kenya,Discord Hub,115,36,0,2523,0,0
+167,Iron Shield,Morocco,Discord Hub,181,104,6,2523,3,14
+168,Midnight Shield,Algeria,Discord Hub,2800,1056,5,2523,0,3
+169,Delta Shield,Tunisia,PlayStation Network,1078,345,11,789,3,8
+170,Echo Shield,Argentina,PC Steam,332,131,9,789,4,6
+171,Solar Core,Chile,Discord Hub,3085,1149,0,3141,1,1
+172,Stellar Core,Colombia,Discord Hub,1259,614,0,4648,0,1
+173,Warp Core,Peru,Discord Hub,8635,2004,1,4648,0,1
+174,Primal Core,Venezuela,PC Steam,3020,975,11,2960,1,3
+175,Neon Core,Ecuador,Discord Hub,913,451,0,5901,0,0
+176,Shadow Core,Uruguay,PlayStation Network,9665,3270,3,5901,0,1
+177,Cyber Core,Paraguay,Discord Hub,50,26,0,2617,0,1
+178,Vector Core,Bolivia,Discord Hub,1099,284,0,2617,0,2
+179,Apex Core,Costa Rica,Discord Hub,560,295,0,6993,0,0
+180,Iron Core,Panama,Discord Hub,1663,824,4,6993,0,0
+181,Midnight Core,Guatemala,PlayStation Network,213,157,0,6993,0,0
+182,Delta Core,Honduras,Discord Hub,178,77,0,6993,0,1
+183,Echo Core,El Salvador,Discord Hub,115,61,0,6993,0,0
+184,Solar Nexus,Nicaragua,Discord Hub,3842,1341,6,3992,1,0
+185,Stellar Nexus,Dominican Republic,Nintendo Switch Online,1089,500,12,7197,0,0
+186,Warp Nexus,Puerto Rico,Nintendo Switch Online,1054,505,0,7197,0,1
+187,Primal Nexus,Jamaica,Discord Hub,1844,670,0,7197,0,1
+188,Neon Nexus,Trinidad,PC Steam,147,71,0,7197,0,1
+189,Shadow Nexus,China,Discord Hub,533,203,0,5007,0,0
+190,Cyber Nexus,Taiwan,PC Steam,367,164,0,2230,0,2
+191,Vector Nexus,Hong Kong,PlayStation Network,656,174,0,9128,0,0
+192,Apex Nexus,Macau,Discord Hub,68819,8596,0,441,7,0
+193,Iron Nexus,Mongolia,Discord Hub,92,58,6,8058,2,0
+194,Midnight Nexus,Kazakhstan,Discord Hub,674,377,0,8058,0,1
+195,Delta Nexus,Uzbekistan,Discord Hub,573,287,0,8058,0,1
+196,Echo Nexus,Azerbaijan,Discord Hub,105,41,0,8058,0,0
+197,Solar Apex,United States,Discord Hub,607,174,2,1521,0,0
+198,Stellar Apex,United States,Discord Hub,2338,1228,0,3916,0,2
+199,Warp Apex,United Kingdom,Discord Hub,164,89,0,7434,0,2
+200,Primal Apex,Canada,Xbox Live,13712,3220,0,5267,2,3
+201,Stellar Zenith,Germany,Discord Hub,1259,614,0,4648,0,2
+202,Warp Zenith,France,Discord Hub,8635,2004,1,4648,1,5
+203,Primal Zenith,Australia,Discord Hub,3020,975,11,2960,0,2
+204,Neon Zenith,South Korea,Discord Hub,913,451,0,5901,0,0
+205,Shadow Horizon,Japan,PlayStation Network,9665,3270,3,5901,2,3
+206,Cyber Horizon,Brazil,Discord Hub,50,26,0,2617,0,0
+207,Vector Horizon,Nordic,Discord Hub,1099,284,0,2617,0,2
+208,Apex Horizon,Eastern Europe,Xbox Live,560,295,0,6993,0,2
+209,Iron Horizon,Middle East,PC Steam,1663,824,4,6993,0,1
+210,Midnight Horizon,Southeast Asia,Discord Hub,213,157,0,6993,0,0
+211,Delta Horizon,Mexico,Discord Hub,178,77,0,6993,0,0
+212,Echo Horizon,Oceania,Discord Hub,115,61,0,6993,0,1
+213,Solar Shift,Global East,Nintendo Switch Online,3842,1341,6,3992,1,0
+214,Stellar Shift,Global West,Nintendo Switch Online,1089,500,12,7197,0,0
+215,Warp Shift,Central America,Discord Hub,1054,505,0,7197,0,1
+216,Primal Shift,Iberia,Discord Hub,1844,670,0,7197,0,1
+217,Neon Shift,Benelux,PC Steam,147,71,0,7197,0,0
+218,Shadow Shift,Italy,Discord Hub,533,203,0,5007,0,0
+219,Cyber Shift,Spain,PC Steam,367,164,0,2230,0,2
+220,Vector Shift,Portugal,Discord Hub,656,174,0,9128,0,0
+221,Apex Shift,Netherlands,Discord Hub,68819,8596,0,441,0,0
+222,Iron Shift,Belgium,Discord Hub,92,58,6,8058,2,0
+223,Midnight Shift,Switzerland,Discord Hub,674,377,0,8058,2,0
+224,Delta Shift,Austria,PC Steam,573,287,0,8058,0,1
+225,Echo Shift,Poland,Discord Hub,105,41,0,8058,0,1
+226,Solar Matrix,Turkey,Discord Hub,607,174,2,1521,0,0
+227,Stellar Matrix,Ukraine,Discord Hub,2338,1228,0,3916,0,0
+228,Warp Matrix,Czech Republic,Discord Hub,164,89,0,7434,0,2
+229,Primal Matrix,Hungary,Discord Hub,13712,3220,0,5267,0,2
+230,Neon Matrix,Romania,PC Steam,1873,782,5,3612,0,0
+231,Shadow Matrix,Bulgaria,Discord Hub,289,153,0,3612,0,1
+232,Cyber Matrix,Greece,PC Steam,11475,1956,6,5179,0,0
+233,Vector Matrix,Croatia,Discord Hub,803,374,6,5179,0,1
+234,Apex Matrix,Serbia,Discord Hub,191,128,0,9843,0,0
+235,Iron Matrix,Slovakia,Discord Hub,210,110,0,4174,0,0
+236,Midnight Matrix,Slovenia,PC Steam,3074,926,1,4174,0,1
+237,Delta Matrix,Estonia,Discord Hub,10459,2863,0,4174,0,0
+238,Echo Matrix,Latvia,PlayStation Network,50,18,0,2536,0,1
+239,Phoenix Wings,Lithuania,Discord Hub,3839,1285,0,2536,0,1
+240,Viper Claw,Finland,Discord Hub,595,279,3,2536,0,1
+241,Thundercat Squad,Sweden,Discord Hub,508,202,0,2536,0,0
+242,Lunar Pulse,Norway,Discord Hub,58,38,0,2536,0,2
+243,Sunfire Strike,Denmark,Discord Hub,50,23,0,2536,0,0
+244,Quantum Flux,Iceland,Discord Hub,652,271,2,2536,0,1
+245,Solar Flares Unit,Ireland,Discord Hub,754,263,0,4249,0,1
+246,Packet Droppers,New Zealand,Xbox Live,50,18,4,8099,3,0
+247,Thunder Core,Singapore,PC Steam,637,305,0,8099,0,0
+248,Pixel Vanguard,Malaysia,Discord Hub,13592,3900,7,4183,0,1
+249,Midnight Edge,Thailand,Discord Hub,3994,1059,0,8550,0,1
+250,Flick Gods,Vietnam,Discord Hub,1875,680,0,8550,0,1
+251,Galaxy Watch,Philippines,Nintendo Switch Online,117,82,3,5904,0,0
+252,Reaper Squad,Indonesia,Nintendo Switch Online,330,86,0,8762,0,0
+253,War Hawks,India,Discord Hub,7782,2466,0,1889,0,0
+254,Neon Strike,Pakistan,Discord Hub,235,129,0,9123,0,1
+255,Entry Squad,Bangladesh,PC Steam,102,42,0,8748,0,0
+256,Dark Matter Core,Sri Lanka,Discord Hub,5950,1927,6,393,2,3
+257,Primal Instinct,Saudi Arabia,PC Steam,1265,408,0,3097,0,0
+258,Equinox Division,UAE,Discord Hub,7339,1265,0,2060,0,1
+259,Broken Arrow Elite,Egypt,Discord Hub,922,379,2,2060,0,1
+260,War Hammer Core,South Africa,Discord Hub,440,222,8,4659,0,0
+261,Starfall Legion,Nigeria,Discord Hub,207,93,0,1029,0,0
+262,Black Ops Special,Kenya,PC Steam,19467,3384,0,1029,0,1
+263,Warp Horizon,Morocco,Discord Hub,1777,646,0,4999,0,2
+264,Desert Fox Division,Algeria,Discord Hub,170,119,0,4603,0,0
+265,Crossfire Core,Tunisia,Discord Hub,15277,5303,0,286,0,1
+266,Havoc Core,Argentina,Discord Hub,581,246,0,5734,2,2
+267,Iron Shark Squad,Chile,Discord Hub,374,149,0,5734,0,1
+268,Solar Eclipse,Colombia,Discord Hub,1486,671,3,5734,2,0
+269,Input Lag Unit,Peru,PlayStation Network,50,31,5,5734,1,1
+270,Typhoon Core,Venezuela,PC Steam,500,104,7,5734,1,0
+271,Momentum Force,Ecuador,Discord Hub,443,257,0,564,0,1
+272,Ghost Squad Unit,Uruguay,Discord Hub,3071,1034,0,564,0,0
+273,Viper Strike Elite,Paraguay,Discord Hub,2733,923,0,564,0,0
+274,Phantom Strike Force,Bolivia,PC Steam,8541,2486,0,564,0,0
+275,Impact Division,Costa Rica,Discord Hub,899,239,0,1840,0,0
+276,Dragon Scale Elite,Panama,PlayStation Network,2378,1248,0,1840,0,0
+277,Ghost Protocol Unit,Guatemala,Discord Hub,572,212,0,1840,0,0
+278,Dusk Raiders Core,Honduras,Discord Hub,481,172,0,1840,2,0
+279,Sky Pack,El Salvador,Discord Hub,158,60,6,2401,0,0
+280,Arcane Sect,Nicaragua,Discord Hub,187,129,0,2401,0,0
+281,Plateau Pack,Dominican Republic,PlayStation Network,498,309,2,1424,0,0
+282,Savage Storm Force,Puerto Rico,Discord Hub,286,155,0,3078,0,0
+283,Shadow Vanguard,Jamaica,Discord Hub,550,272,8,3078,0,0
+284,Helix Hunters Core,Trinidad,Discord Hub,2003,576,4,3078,0,0
+285,Spike Rush Unit,China,Nintendo Switch Online,2596,1362,1,1138,0,0
+286,Crystal Spire Core,Taiwan,Nintendo Switch Online,3185,1104,0,441,0,2
+287,Eclipse Vanguard,Hong Kong,Discord Hub,8936,2204,0,441,1,0
+288,Solstice Division,Macau,PC Steam,400,254,0,441,2,3
+289,Velocity Force,Mongolia,Discord Hub,811,348,0,441,0,0
+290,Dark Matter Vanguard,Kazakhstan,PC Steam,31155,5584,0,441,0,0
+291,Forest Pack,Uzbekistan,PlayStation Network,282,110,5,2546,0,2
+292,Storm Hawks Unit,Azerbaijan,Discord Hub,265,167,5,2546,3,0
+293,Stellar Blaze Force,North America,Discord Hub,421,243,0,6846,0,0
+294,Warpath Division,Europe,Discord Hub,166,77,0,6846,0,1
+295,Orbital Strike Unit,Asia-Pacific,Discord Hub,115,36,0,2523,0,0
+296,Sky Titans Force,South America,Discord Hub,181,104,6,2523,0,2
+297,Shadow Council Core,Africa,Discord Hub,2800,1056,5,2523,0,0
+298,Emerald Vanguard,United States,Discord Hub,1078,345,11,789,0,1
+299,Night Stalker Core,United Kingdom,Discord Hub,332,131,9,789,0,0
+300,Pale Horse Riders,Canada,Xbox Live,3085,1149,0,3141,0,0
+301,Antimatter Unit,United States,Discord Hub,282,110,5,2546,2,2
+302,Sakura Blades Force,United States,Discord Hub,265,167,5,2546,2,0
+303,Rustic Division,United Kingdom,Discord Hub,11406,1953,6,5179,0,2
+304,Phantom Vanguard,Canada,Discord Hub,715,345,6,5179,0,0
+305,Thunder Tribe,Germany,PlayStation Network,191,128,0,9843,0,0
+306,Crimson Dragon Core,France,Discord Hub,210,110,0,4174,0,0
+307,Raider Tribe,Australia,Discord Hub,3074,926,1,4174,0,1
+308,Specter Core,South Korea,Xbox Live,10459,2863,0,4174,0,1
+309,Frost Tribe,Japan,PC Steam,50,18,0,2536,0,0
+310,Rapid Fire Unit,Brazil,Discord Hub,3839,1285,0,2536,0,0
+311,Neon Eagles Squad,Nordic,Discord Hub,595,279,3,2536,0,1
+312,Rune Vanguard,Eastern Europe,Discord Hub,508,202,0,2536,0,0
+313,Crimson Brotherhood,Middle East,Nintendo Switch Online,58,38,0,2536,0,0
+314,Chaos Force,Southeast Asia,Nintendo Switch Online,50,23,0,2536,0,0
+315,Hellstorm Elite,Mexico,Discord Hub,652,271,2,2536,2,3
+316,Solar Wings Core,Oceania,Discord Hub,754,263,0,4249,0,0
+317,Silent Killers Unit,Global East,PC Steam,50,18,4,8099,0,0
+318,Wild Fire Elite,Global West,Discord Hub,637,305,0,8099,0,1
+319,Fallen Angels Core,Central America,PC Steam,13592,3900,7,4183,0,0
+320,Titan Fall Division,Iberia,Discord Hub,3994,1059,0,8550,1,0
+321,Void Reapers Force,Benelux,Discord Hub,1875,680,0,8550,2,0
+322,Solar Genesis,Italy,Discord Hub,117,82,3,5904,0,1
+323,Stellar Genesis,Spain,Discord Hub,330,86,0,8762,0,0
+324,Warp Genesis,Portugal,PC Steam,7782,2466,0,1889,1,2
+325,Primal Genesis,Netherlands,Discord Hub,235,129,0,9123,0,0
+326,Neon Genesis,Belgium,Discord Hub,102,42,0,8748,0,0
+327,Shadow Genesis,Switzerland,Discord Hub,5950,1927,6,393,0,0
+328,Cyber Genesis,Austria,Discord Hub,1265,408,0,3097,0,0
+329,Vector Genesis,Poland,Discord Hub,7339,1265,0,2060,0,0
+330,Apex Genesis,Turkey,PC Steam,922,379,2,2060,0,1
+331,Iron Genesis,Ukraine,Discord Hub,440,222,8,4659,0,0
+332,Midnight Genesis,Czech Republic,PC Steam,207,93,0,1029,0,0
+333,Delta Genesis,Hungary,Discord Hub,19467,3384,0,1029,0,0
+334,Echo Genesis,Romania,Discord Hub,1777,646,0,4999,0,0
+335,Solar Horizon Unit,Bulgaria,Discord Hub,170,119,0,4603,0,0
+336,Stellar Horizon Unit,Greece,PC Steam,15277,5303,0,286,0,0
+337,Warp Horizon Unit,Croatia,Discord Hub,581,246,0,5734,0,2
+338,Primal Horizon Unit,Serbia,PlayStation Network,374,149,0,5734,0,0
+339,Neon Horizon Unit,Slovakia,Discord Hub,1486,671,3,5734,0,0
+340,Shadow Skyline,Slovenia,Discord Hub,50,31,5,5734,0,1
+341,Cyber Skyline,Estonia,Discord Hub,500,104,7,5734,0,0
+342,Vector Skyline,Latvia,Discord Hub,443,257,0,564,0,0
+343,Apex Skyline,Lithuania,Discord Hub,3071,1034,0,564,0,0
+344,Iron Skyline,Finland,Discord Hub,2733,923,0,564,0,0
+345,Midnight Skyline,Sweden,Discord Hub,8541,2486,0,564,0,0
+346,Delta Skyline,Norway,Xbox Live,899,239,0,1840,0,0
+347,Raven Guard,Mexico,Xbox Live,58240,12437,0,6879,3,4
+348,Raging Tempest,Mexico,Discord Hub,510,146,0,6879,0,0
+349,Dark Current,Singapore,Discord Hub,1623,781,0,5086,0,1
+350,Comet Strike,Argentina,Discord Hub,14577,4811,0,1173,2,4
+351,Iron Fist,United Kingdom,Discord Hub,50,26,0,1173,0,2
+352,Void Walker,Southeast Asia,Discord Hub,11406,1953,6,5179,1,0
+353,Abyss Walker,Asia-Pacific,Discord Hub,715,345,6,5179,2,3
+354,Deep Walker,United States,Discord Hub,191,128,0,9843,0,0
+355,Sky Walker,United States,Discord Hub,210,110,0,4174,0,0
+356,Star Walker,United Kingdom,Discord Hub,3074,926,1,4174,0,0
+357,Sun Walker,Canada,Discord Hub,10459,2863,0,4174,0,0

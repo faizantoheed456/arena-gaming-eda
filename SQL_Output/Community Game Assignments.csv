@@ -1,0 +1,592 @@
+community_id,community_name,game_id,play_designation
+353,Abyss Walker,8,Primary
+353,Abyss Walker,13,Secondary
+14,Ace Pack,1,Primary
+14,Ace Pack,6,Secondary
+103,Aero Force,3,Primary
+103,Aero Force,15,Secondary
+118,Alpha Wolves,4,Primary
+118,Alpha Wolves,5,Secondary
+80,Antimatter Legion,3,Primary
+301,Antimatter Unit,3,Secondary
+301,Antimatter Unit,4,Primary
+179,Apex Core,4,Primary
+179,Apex Core,14,Secondary
+153,Apex Elite,4,Primary
+153,Apex Elite,11,Secondary
+330,Apex Genesis,10,Secondary
+330,Apex Genesis,14,Primary
+125,Apex Guard,4,Primary
+125,Apex Guard,8,Secondary
+208,Apex Horizon,1,Primary
+208,Apex Horizon,12,Secondary
+234,Apex Matrix,2,Secondary
+234,Apex Matrix,3,Primary
+192,Apex Nexus,9,Primary
+166,Apex Shield,4,Primary
+166,Apex Shield,5,Secondary
+221,Apex Shift,8,Primary
+343,Apex Skyline,14,Primary
+57,Arcane Brotherhood,14,Primary
+280,Arcane Sect,1,Primary
+280,Arcane Sect,12,Secondary
+2,Arcane Wolves,3,Primary
+21,Black Hole Squad,1,Primary
+21,Black Hole Squad,12,Secondary
+262,Black Ops Special,8,Secondary
+262,Black Ops Special,11,Primary
+39,Black Ops Unit,7,Primary
+110,Blaze Guard,16,Primary
+259,Broken Arrow Elite,9,Primary
+259,Broken Arrow Elite,17,Secondary
+36,Broken Arrow Real,14,Primary
+13,Byte Force,6,Secondary
+13,Byte Force,14,Primary
+314,Chaos Force,14,Primary
+93,Chaos Legion,16,Primary
+9,Clutch Factor,7,Primary
+350,Comet Strike,9,Secondary
+350,Comet Strike,12,Primary
+313,Crimson Brotherhood,4,Primary
+313,Crimson Brotherhood,9,Secondary
+85,Crimson Dragon,4,Primary
+85,Crimson Dragon,17,Secondary
+306,Crimson Dragon Core,6,Primary
+92,Crimson Pact,2,Primary
+92,Crimson Pact,7,Secondary
+265,Crossfire Core,2,Primary
+42,Crossfire Unit,3,Secondary
+42,Crossfire Unit,10,Primary
+63,Crystal Spire,12,Secondary
+63,Crystal Spire,13,Primary
+286,Crystal Spire Core,1,Primary
+286,Crystal Spire Core,15,Secondary
+177,Cyber Core,1,Primary
+177,Cyber Core,6,Secondary
+143,Cyber Elite,3,Primary
+328,Cyber Genesis,7,Primary
+151,Cyber Guard,13,Primary
+151,Cyber Guard,16,Secondary
+206,Cyber Horizon,1,Primary
+206,Cyber Horizon,3,Secondary
+232,Cyber Matrix,1,Primary
+232,Cyber Matrix,5,Secondary
+190,Cyber Nexus,6,Primary
+190,Cyber Nexus,16,Secondary
+164,Cyber Shield,1,Primary
+164,Cyber Shield,2,Secondary
+219,Cyber Shift,3,Secondary
+219,Cyber Shift,4,Primary
+341,Cyber Skyline,4,Secondary
+341,Cyber Skyline,13,Primary
+129,Cyber Strike,2,Secondary
+129,Cyber Strike,17,Primary
+107,Cyber Wolves,15,Secondary
+107,Cyber Wolves,16,Primary
+349,Dark Current,11,Primary
+349,Dark Current,15,Secondary
+33,Dark Energy,14,Primary
+135,Dark Legion,13,Primary
+135,Dark Legion,17,Secondary
+69,Dark Matter,1,Primary
+69,Dark Matter,5,Secondary
+256,Dark Matter Core,3,Primary
+256,Dark Matter Core,9,Secondary
+290,Dark Matter Vanguard,1,Primary
+290,Dark Matter Vanguard,17,Secondary
+354,Deep Walker,9,Primary
+354,Deep Walker,12,Secondary
+182,Delta Core,3,Primary
+182,Delta Core,15,Secondary
+142,Delta Force,6,Primary
+333,Delta Genesis,10,Primary
+156,Delta Guard,16,Primary
+211,Delta Horizon,3,Primary
+237,Delta Matrix,3,Secondary
+237,Delta Matrix,14,Primary
+195,Delta Nexus,3,Primary
+169,Delta Shield,9,Primary
+169,Delta Shield,10,Secondary
+224,Delta Shift,7,Primary
+224,Delta Shift,14,Secondary
+346,Delta Skyline,4,Primary
+117,Delta Squad,1,Primary
+117,Delta Squad,11,Secondary
+41,Desert Fox,3,Primary
+264,Desert Fox Division,6,Primary
+53,Dragon Scale,12,Primary
+276,Dragon Scale Elite,10,Primary
+276,Dragon Scale Elite,17,Secondary
+55,Dusk Raiders,4,Primary
+55,Dusk Raiders,5,Secondary
+278,Dusk Raiders Core,4,Primary
+183,Echo Core,12,Primary
+144,Echo Elite,1,Secondary
+144,Echo Elite,12,Primary
+334,Echo Genesis,3,Secondary
+334,Echo Genesis,7,Primary
+157,Echo Guard,12,Primary
+157,Echo Guard,14,Secondary
+212,Echo Horizon,8,Primary
+212,Echo Horizon,9,Secondary
+238,Echo Matrix,1,Secondary
+238,Echo Matrix,15,Primary
+196,Echo Nexus,14,Primary
+170,Echo Shield,1,Primary
+170,Echo Shield,5,Secondary
+225,Echo Shift,12,Primary
+225,Echo Shift,13,Secondary
+64,Eclipse Hunters,13,Primary
+65,Eclipse Hunters B,15,Secondary
+65,Eclipse Hunters B,17,Primary
+287,Eclipse Vanguard,6,Primary
+6,Eco Force,9,Primary
+6,Eco Force,10,Secondary
+77,Emerald Legion,9,Primary
+77,Emerald Legion,17,Secondary
+298,Emerald Vanguard,1,Primary
+298,Emerald Vanguard,2,Secondary
+32,Entry Fraggers,3,Primary
+255,Entry Squad,8,Primary
+255,Entry Squad,15,Secondary
+258,Equinox Division,2,Secondary
+258,Equinox Division,17,Primary
+35,Equinox Force,9,Primary
+35,Equinox Force,16,Secondary
+98,Fallen Angels,6,Secondary
+98,Fallen Angels,8,Primary
+319,Fallen Angels Core,2,Secondary
+319,Fallen Angels Core,6,Primary
+19,Flash Clan,3,Primary
+19,Flash Clan,15,Secondary
+250,Flick Gods,1,Primary
+27,Flick Masters,6,Primary
+27,Flick Masters,16,Secondary
+291,Forest Pack,3,Secondary
+291,Forest Pack,12,Primary
+70,Forest Wolves,2,Primary
+70,Forest Wolves,4,Secondary
+122,Frost Bite,4,Primary
+122,Frost Bite,12,Secondary
+88,Frost Legion,13,Primary
+88,Frost Legion,16,Secondary
+309,Frost Tribe,9,Primary
+309,Frost Tribe,13,Secondary
+139,Frost Vanguard,6,Primary
+4,Frost Warriors,1,Primary
+4,Frost Warriors,6,Secondary
+5,Frozen North,7,Primary
+5,Frozen North,8,Secondary
+28,Galaxy Pact,7,Primary
+251,Galaxy Watch,9,Secondary
+251,Galaxy Watch,14,Primary
+112,Ghost Guard,9,Primary
+54,Ghost Protocol,1,Primary
+54,Ghost Protocol,11,Secondary
+277,Ghost Protocol Unit,1,Primary
+277,Ghost Protocol Unit,16,Secondary
+272,Ghost Squad Unit,6,Primary
+272,Ghost Squad Unit,14,Secondary
+49,Ghost Wolves,9,Primary
+134,Giga Byte,2,Secondary
+134,Giga Byte,7,Primary
+266,Havoc Core,2,Secondary
+266,Havoc Core,4,Primary
+43,Havoc Unit,14,Primary
+61,Helix Hunters,3,Primary
+61,Helix Hunters,9,Secondary
+284,Helix Hunters Core,4,Secondary
+284,Helix Hunters Core,12,Primary
+7,Hellfire,1,Primary
+7,Hellfire,5,Secondary
+94,Hellstorm,12,Primary
+94,Hellstorm,14,Secondary
+315,Hellstorm Elite,6,Primary
+315,Hellstorm Elite,15,Secondary
+275,Impact Division,1,Primary
+275,Impact Division,7,Secondary
+52,Impact Wolves,1,Primary
+52,Impact Wolves,2,Secondary
+46,Input Lag,1,Primary
+269,Input Lag Unit,7,Primary
+269,Input Lag Unit,12,Secondary
+126,Iron Brotherhood,12,Secondary
+126,Iron Brotherhood,13,Primary
+180,Iron Core,1,Secondary
+180,Iron Core,13,Primary
+140,Iron Elite,9,Primary
+140,Iron Elite,17,Secondary
+351,Iron Fist,1,Primary
+351,Iron Fist,2,Secondary
+331,Iron Genesis,12,Primary
+154,Iron Guard,3,Primary
+154,Iron Guard,14,Secondary
+209,Iron Horizon,1,Primary
+209,Iron Horizon,9,Secondary
+235,Iron Matrix,13,Primary
+193,Iron Nexus,12,Primary
+267,Iron Shark Squad,1,Primary
+44,Iron Sharks,15,Secondary
+44,Iron Sharks,16,Primary
+167,Iron Shield,1,Primary
+167,Iron Shield,6,Secondary
+222,Iron Shift,12,Secondary
+222,Iron Shift,13,Primary
+344,Iron Skyline,5,Secondary
+344,Iron Skyline,9,Primary
+12,Iron Tide,13,Primary
+8,Iron Wolves,1,Primary
+242,Lunar Pulse,17,Primary
+18,Lunar Strike,1,Secondary
+18,Lunar Strike,11,Primary
+26,Midnight Blade,7,Primary
+181,Midnight Core,1,Secondary
+181,Midnight Core,11,Primary
+249,Midnight Edge,12,Primary
+155,Midnight Elite,2,Primary
+155,Midnight Elite,7,Secondary
+332,Midnight Genesis,6,Primary
+210,Midnight Horizon,16,Primary
+236,Midnight Matrix,16,Primary
+194,Midnight Nexus,12,Primary
+194,Midnight Nexus,15,Secondary
+141,Midnight Shadows,7,Secondary
+141,Midnight Shadows,14,Primary
+168,Midnight Shield,7,Primary
+168,Midnight Shield,8,Secondary
+223,Midnight Shift,3,Secondary
+223,Midnight Shift,7,Primary
+345,Midnight Skyline,1,Secondary
+345,Midnight Skyline,9,Primary
+271,Momentum Force,9,Primary
+48,Momentum Pack,1,Secondary
+48,Momentum Pack,6,Primary
+175,Neon Core,13,Primary
+127,Neon Dragons,13,Primary
+90,Neon Eagles,4,Primary
+90,Neon Eagles,11,Secondary
+311,Neon Eagles Squad,2,Secondary
+311,Neon Eagles Squad,12,Primary
+149,Neon Elite,11,Secondary
+149,Neon Elite,13,Primary
+31,Neon Flash,12,Primary
+31,Neon Flash,15,Secondary
+326,Neon Genesis,5,Primary
+339,Neon Horizon Unit,12,Secondary
+339,Neon Horizon Unit,17,Primary
+230,Neon Matrix,1,Primary
+188,Neon Nexus,4,Primary
+15,Neon Riders,8,Primary
+162,Neon Shield,13,Secondary
+162,Neon Shield,14,Primary
+217,Neon Shift,1,Primary
+254,Neon Strike,2,Secondary
+254,Neon Strike,14,Primary
+66,Neon Surge,2,Secondary
+66,Neon Surge,17,Primary
+114,Neon Tide,9,Primary
+136,Neon Vanguard,8,Secondary
+136,Neon Vanguard,11,Primary
+16,Neon Wolves,4,Primary
+16,Neon Wolves,14,Secondary
+204,Neon Zenith,5,Secondary
+204,Neon Zenith,13,Primary
+78,Night Stalker,7,Secondary
+78,Night Stalker,14,Primary
+299,Night Stalker Core,1,Primary
+299,Night Stalker Core,3,Secondary
+1,Nitro Wolves,1,Primary
+1,Nitro Wolves,2,Secondary
+119,Nova Force,4,Secondary
+119,Nova Force,8,Primary
+74,Orbital Strike,1,Primary
+74,Orbital Strike,4,Secondary
+295,Orbital Strike Unit,6,Primary
+246,Packet Droppers,4,Primary
+246,Packet Droppers,5,Secondary
+23,Packet Loss,3,Primary
+300,Pale Horse Riders,2,Primary
+79,Pale Riders,6,Primary
+83,Phantom Legion,5,Secondary
+83,Phantom Legion,14,Primary
+51,Phantom Strike,9,Primary
+274,Phantom Strike Force,5,Secondary
+274,Phantom Strike Force,11,Primary
+106,Phantom Unit,14,Primary
+304,Phantom Vanguard,1,Primary
+304,Phantom Vanguard,8,Secondary
+138,Phoenix Flame,9,Primary
+138,Phoenix Flame,14,Secondary
+239,Phoenix Wings,5,Secondary
+239,Phoenix Wings,14,Primary
+25,Pixel Storm,4,Primary
+248,Pixel Vanguard,6,Primary
+281,Plateau Pack,6,Primary
+58,Plateau Riders,10,Primary
+200,Primal Apex,3,Secondary
+200,Primal Apex,9,Primary
+174,Primal Core,10,Secondary
+174,Primal Core,12,Primary
+148,Primal Elite,4,Primary
+148,Primal Elite,17,Secondary
+325,Primal Genesis,3,Primary
+325,Primal Genesis,4,Secondary
+338,Primal Horizon Unit,4,Secondary
+338,Primal Horizon Unit,7,Primary
+257,Primal Instinct,5,Primary
+257,Primal Instinct,6,Secondary
+229,Primal Matrix,7,Secondary
+229,Primal Matrix,9,Primary
+187,Primal Nexus,1,Secondary
+187,Primal Nexus,15,Primary
+34,Primal Rage,3,Primary
+34,Primal Rage,14,Secondary
+161,Primal Shield,6,Secondary
+161,Primal Shield,8,Primary
+216,Primal Shift,1,Primary
+216,Primal Shift,3,Secondary
+115,Primal Surge,1,Primary
+115,Primal Surge,2,Secondary
+133,Primal Vanguard,2,Primary
+133,Primal Vanguard,4,Secondary
+203,Primal Zenith,3,Primary
+203,Primal Zenith,13,Secondary
+244,Quantum Flux,1,Primary
+244,Quantum Flux,9,Secondary
+11,Raging Bulls,10,Secondary
+11,Raging Bulls,12,Primary
+348,Raging Tempest,3,Primary
+86,Raider Nation,11,Secondary
+86,Raider Nation,13,Primary
+307,Raider Tribe,1,Primary
+307,Raider Tribe,8,Secondary
+89,Rapid Fire,3,Secondary
+89,Rapid Fire,6,Primary
+310,Rapid Fire Unit,10,Primary
+347,Raven Guard,17,Primary
+29,Reaper Crew,9,Primary
+252,Reaper Squad,3,Primary
+252,Reaper Squad,4,Secondary
+121,Rogue Agents,10,Primary
+113,Rogue Wave,8,Primary
+113,Rogue Wave,13,Secondary
+91,Rune Masters,3,Primary
+91,Rune Masters,14,Secondary
+312,Rune Vanguard,13,Primary
+303,Rustic Division,3,Secondary
+303,Rustic Division,11,Primary
+82,Rustic Raiders,1,Secondary
+82,Rustic Raiders,16,Primary
+81,Sakura Blades,1,Secondary
+81,Sakura Blades,12,Primary
+302,Sakura Blades Force,6,Primary
+120,Savage Claws,14,Primary
+59,Savage Storm,4,Primary
+59,Savage Storm,12,Secondary
+282,Savage Storm Force,10,Primary
+176,Shadow Core,6,Secondary
+176,Shadow Core,14,Primary
+76,Shadow Council,6,Primary
+297,Shadow Council Core,1,Primary
+150,Shadow Elite,3,Primary
+150,Shadow Elite,8,Secondary
+327,Shadow Genesis,6,Primary
+205,Shadow Horizon,6,Secondary
+205,Shadow Horizon,15,Primary
+101,Shadow Hunters,13,Secondary
+101,Shadow Hunters,14,Primary
+231,Shadow Matrix,12,Primary
+189,Shadow Nexus,7,Primary
+116,Shadow Pack,12,Primary
+128,Shadow Rangers,15,Secondary
+128,Shadow Rangers,17,Primary
+60,Shadow Reapers,13,Primary
+163,Shadow Shield,1,Primary
+163,Shadow Shield,10,Secondary
+218,Shadow Shift,6,Primary
+340,Shadow Skyline,14,Primary
+283,Shadow Vanguard,5,Secondary
+283,Shadow Vanguard,8,Primary
+96,Silent Killers,2,Primary
+317,Silent Killers Unit,8,Primary
+317,Silent Killers Unit,15,Secondary
+111,Silent Shadows,1,Secondary
+111,Silent Shadows,6,Primary
+279,Sky Pack,4,Primary
+279,Sky Pack,17,Secondary
+75,Sky Titans,9,Primary
+75,Sky Titans,14,Secondary
+296,Sky Titans Force,9,Secondary
+296,Sky Titans Force,15,Primary
+355,Sky Walker,12,Primary
+56,Sky Wolves,4,Secondary
+56,Sky Wolves,8,Primary
+197,Solar Apex,3,Primary
+197,Solar Apex,14,Secondary
+45,Solar Ascent,1,Primary
+45,Solar Ascent,12,Secondary
+171,Solar Core,1,Primary
+268,Solar Eclipse,9,Primary
+145,Solar Elite,1,Secondary
+145,Solar Elite,16,Primary
+131,Solar Flares,14,Primary
+245,Solar Flares Unit,7,Primary
+322,Solar Genesis,1,Secondary
+322,Solar Genesis,5,Primary
+108,Solar Guardians,1,Primary
+108,Solar Guardians,12,Secondary
+335,Solar Horizon Unit,10,Secondary
+335,Solar Horizon Unit,13,Primary
+226,Solar Matrix,12,Primary
+226,Solar Matrix,16,Secondary
+22,Solar Monks,13,Primary
+22,Solar Monks,16,Secondary
+184,Solar Nexus,1,Primary
+184,Solar Nexus,12,Secondary
+158,Solar Shield,8,Primary
+213,Solar Shift,3,Primary
+95,Solar Wings,8,Primary
+316,Solar Wings Core,11,Secondary
+316,Solar Wings Core,13,Primary
+288,Solstice Division,3,Secondary
+288,Solstice Division,9,Primary
+67,Solstice Squad,3,Secondary
+67,Solstice Squad,7,Primary
+308,Specter Core,9,Primary
+308,Specter Core,16,Secondary
+87,Specter Division,3,Primary
+87,Specter Division,8,Secondary
+137,Spectral Wolves,1,Primary
+137,Spectral Wolves,4,Secondary
+10,Speed Demons,3,Secondary
+10,Speed Demons,11,Primary
+62,Spike Rush,4,Primary
+62,Spike Rush,8,Secondary
+285,Spike Rush Unit,16,Primary
+356,Star Walker,15,Secondary
+356,Star Walker,16,Primary
+38,Starfall,7,Secondary
+38,Starfall,15,Primary
+261,Starfall Legion,5,Secondary
+261,Starfall Legion,14,Primary
+123,Static Shock,13,Primary
+198,Stellar Apex,9,Primary
+198,Stellar Apex,16,Secondary
+72,Stellar Blaze,13,Primary
+72,Stellar Blaze,17,Secondary
+293,Stellar Blaze Force,6,Primary
+293,Stellar Blaze Force,14,Secondary
+172,Stellar Core,7,Primary
+146,Stellar Elite,5,Secondary
+146,Stellar Elite,14,Primary
+323,Stellar Genesis,4,Primary
+159,Stellar Guard,2,Primary
+336,Stellar Horizon Unit,3,Primary
+227,Stellar Matrix,14,Primary
+227,Stellar Matrix,16,Secondary
+185,Stellar Nexus,13,Primary
+185,Stellar Nexus,16,Secondary
+132,Stellar Raiders,1,Primary
+132,Stellar Raiders,5,Secondary
+214,Stellar Shift,5,Secondary
+214,Stellar Shift,12,Primary
+201,Stellar Zenith,1,Secondary
+201,Stellar Zenith,6,Primary
+3,Storm Front,4,Primary
+3,Storm Front,5,Secondary
+71,Storm Hawks,2,Secondary
+71,Storm Hawks,7,Primary
+292,Storm Hawks Unit,8,Primary
+292,Storm Hawks Unit,13,Secondary
+357,Sun Walker,7,Primary
+357,Sun Walker,8,Secondary
+20,Sunfire,12,Primary
+243,Sunfire Strike,8,Primary
+243,Sunfire Strike,14,Secondary
+84,Thunder Clan,1,Primary
+247,Thunder Core,7,Primary
+247,Thunder Core,13,Secondary
+24,Thunder Legion,1,Secondary
+24,Thunder Legion,15,Primary
+305,Thunder Tribe,3,Primary
+241,Thundercat Squad,1,Primary
+241,Thundercat Squad,11,Secondary
+17,Thundercats,1,Secondary
+17,Thundercats,13,Primary
+99,Titan Fall,13,Secondary
+99,Titan Fall,14,Primary
+320,Titan Fall Division,1,Primary
+320,Titan Fall Division,16,Secondary
+104,Titan Guard,3,Primary
+47,Typhoon,16,Primary
+270,Typhoon Core,7,Secondary
+270,Typhoon Core,9,Primary
+178,Vector Core,8,Primary
+124,Vector Force,3,Primary
+124,Vector Force,9,Secondary
+329,Vector Genesis,1,Secondary
+329,Vector Genesis,9,Primary
+152,Vector Guard,3,Secondary
+152,Vector Guard,6,Primary
+207,Vector Horizon,12,Secondary
+207,Vector Horizon,13,Primary
+233,Vector Matrix,3,Secondary
+233,Vector Matrix,4,Primary
+191,Vector Nexus,7,Primary
+165,Vector Shield,3,Primary
+220,Vector Shift,8,Primary
+342,Vector Skyline,2,Primary
+68,Velocity,14,Primary
+289,Velocity Force,15,Primary
+240,Viper Claw,3,Primary
+105,Viper Force,3,Secondary
+105,Viper Force,10,Primary
+50,Viper Strike,8,Primary
+50,Viper Strike,13,Secondary
+273,Viper Strike Elite,6,Primary
+273,Viper Strike Elite,11,Secondary
+100,Void Reapers,1,Primary
+100,Void Reapers,10,Secondary
+321,Void Reapers Force,7,Secondary
+321,Void Reapers Force,8,Primary
+352,Void Walker,4,Primary
+102,Vortex Clan,1,Primary
+102,Vortex Clan,10,Secondary
+30,War Eagles,12,Primary
+37,War Hammer,3,Secondary
+37,War Hammer,9,Primary
+260,War Hammer Core,7,Primary
+260,War Hammer Core,9,Secondary
+253,War Hawks,14,Secondary
+253,War Hawks,16,Primary
+199,Warp Apex,14,Primary
+173,Warp Core,3,Secondary
+173,Warp Core,11,Primary
+147,Warp Elite,1,Primary
+130,Warp Force,3,Secondary
+130,Warp Force,7,Primary
+324,Warp Genesis,5,Secondary
+324,Warp Genesis,13,Primary
+160,Warp Guard,6,Secondary
+160,Warp Guard,7,Primary
+263,Warp Horizon,8,Primary
+263,Warp Horizon,11,Secondary
+337,Warp Horizon Unit,9,Primary
+337,Warp Horizon Unit,14,Secondary
+228,Warp Matrix,1,Primary
+228,Warp Matrix,5,Secondary
+186,Warp Nexus,3,Primary
+40,Warp Riders,3,Primary
+40,Warp Riders,15,Secondary
+215,Warp Shift,1,Primary
+215,Warp Shift,3,Secondary
+202,Warp Zenith,4,Primary
+202,Warp Zenith,11,Secondary
+109,Warp Zone,1,Primary
+73,Warpath,8,Secondary
+73,Warpath,11,Primary
+294,Warpath Division,1,Primary
+97,Wild Fire,6,Secondary
+97,Wild Fire,7,Primary
+318,Wild Fire Elite,7,Primary
+318,Wild Fire Elite,8,Secondary

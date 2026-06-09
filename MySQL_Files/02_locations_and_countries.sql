@@ -1,22 +1,22 @@
+-- File 2 of 3: Locations and countries
+-- Creates language -> country -> country_location hierarchy
+-- Run this file second, after 01_platforms_and_games.sql
 
- 
 SET FOREIGN_KEY_CHECKS = 0;
- 
+
 DROP TABLE IF EXISTS `COUNTRY_LOCATION`;
 DROP TABLE IF EXISTS `COUNTRY`;
 DROP TABLE IF EXISTS `LANGUAGE`;
- 
-SET FOREIGN_KEY_CHECKS = 1;
- 
- 
 
--- Stores supported languages
+SET FOREIGN_KEY_CHECKS = 1;
+
+-- Table definitions
+
 CREATE TABLE `LANGUAGE` (
     `language_id`   INT          AUTO_INCREMENT PRIMARY KEY,
     `language_name` VARCHAR(100) NOT NULL
 );
- 
--- Stores countries linked to a primary language
+
 CREATE TABLE `COUNTRY` (
     `country_id`   INT          AUTO_INCREMENT PRIMARY KEY,
     `country_name` VARCHAR(100) NOT NULL,
@@ -25,8 +25,7 @@ CREATE TABLE `COUNTRY` (
         REFERENCES `LANGUAGE`(`language_id`)
         ON DELETE SET NULL ON UPDATE CASCADE
 );
- 
--- Stores regional location data linked to a country
+
 CREATE TABLE `COUNTRY_LOCATION` (
     `location_id`  INT          AUTO_INCREMENT PRIMARY KEY,
     `region`       VARCHAR(100) NOT NULL,
@@ -35,9 +34,9 @@ CREATE TABLE `COUNTRY_LOCATION` (
         REFERENCES `COUNTRY`(`country_id`)
         ON DELETE SET NULL ON UPDATE CASCADE
 );
- 
 
--- DATA INSERTIONS
+-- Data insertions
+
 INSERT INTO `LANGUAGE` (`language_id`, `language_name`) VALUES
 (1,  'English'),
 (2,  'Korean'),
@@ -49,8 +48,8 @@ INSERT INTO `LANGUAGE` (`language_id`, `language_name`) VALUES
 (8,  'Spanish'),
 (9,  'Arabic'),
 (10, 'Russian');
- 
 
+-- Countries with corrected language assignments
 INSERT INTO `COUNTRY` (`country_id`, `country_name`, `language_id`) VALUES
 (1,  'Australia',       1),
 (2,  'United States',   1),
@@ -59,10 +58,10 @@ INSERT INTO `COUNTRY` (`country_id`, `country_name`, `language_id`) VALUES
 (5,  'South Korea',     2),
 (6,  'Netherlands',     1),
 (7,  'Denmark',         1),
-(8,  'Chile',           8),   
+(8,  'Chile',           8),
 (9,  'Canada',          1),
 (10, 'Poland',          1),
-(11, 'Argentina',       8),   
+(11, 'Argentina',       8),
 (12, 'Russia',          10),
 (13, 'Turkey',          9),
 (14, 'New Zealand',     1),
@@ -70,13 +69,14 @@ INSERT INTO `COUNTRY` (`country_id`, `country_name`, `language_id`) VALUES
 (16, 'Taiwan',          6),
 (17, 'Brazil',          7),
 (18, 'United Kingdom',  1),
-(19, 'France',          4),   
+(19, 'France',          4),
 (20, 'Sweden',          1),
-(21, 'Spain',           8),   
+(21, 'Spain',           8),
 (22, 'Colombia',        8),
-(23, 'Saudi Arabia',    9),   
-(24, 'Japan',           3);   
- 
+(23, 'Saudi Arabia',    9),
+(24, 'Japan',           3);
+
+-- Locations with corrected region codes
 INSERT INTO `COUNTRY_LOCATION` (`location_id`, `region`, `country_id`) VALUES
 (1,  'OC',      1),
 (2,  'Unknown', 2),
@@ -90,7 +90,7 @@ INSERT INTO `COUNTRY_LOCATION` (`location_id`, `region`, `country_id`) VALUES
 (10, 'EU',      10),
 (11, 'SA',      11),
 (12, 'EU',      12),
-(13, 'EU',      13),  
+(13, 'EU',      13),
 (14, 'OC',      14),
 (15, 'Unknown', 15),
 (16, 'AS',      16),
@@ -100,12 +100,10 @@ INSERT INTO `COUNTRY_LOCATION` (`location_id`, `region`, `country_id`) VALUES
 (20, 'EU',      20),
 (21, 'EU',      21),
 (22, 'SA',      22),
-(23, 'AS',      23),  
+(23, 'AS',      23),
 (24, 'AS',      24);
- 
- 
--- VERIFICATION QUERY
---full location hierarchy joined across all three tables 
+
+-- Verification query
 SELECT
     cl.location_id,
     cl.region,
@@ -115,4 +113,3 @@ FROM `COUNTRY_LOCATION` cl
 INNER JOIN `COUNTRY` c  USING (country_id)
 INNER JOIN `LANGUAGE` l USING (language_id)
 ORDER BY cl.location_id ASC;
-

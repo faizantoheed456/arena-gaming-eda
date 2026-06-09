@@ -1,3 +1,7 @@
+-- File 1 of 3: Platforms and Games
+-- Creates all platform, genre, and game lookup tables
+-- Run this file first
+
 CREATE DATABASE IF NOT EXISTS community_db;
 USE community_db;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -10,15 +14,13 @@ DROP TABLE IF EXISTS `SOCIAL_PLATFORM`;
 
 SET FOREIGN_KEY_CHECKS = 1;
 
+-- Table definitions
 
-
---Stores platform categories (e.g. Forum, Streaming
 CREATE TABLE `PLATFORM_TYPE` (
     `platform_type_id`  INT          AUTO_INCREMENT PRIMARY KEY,
     `type_name`         VARCHAR(100) NOT NULL
 );
 
--- Stores social platforms linked to a platform type
 CREATE TABLE `PLATFORM` (
     `platform_id`       INT          AUTO_INCREMENT PRIMARY KEY,
     `primary_platform`  VARCHAR(100) NOT NULL,
@@ -28,13 +30,11 @@ CREATE TABLE `PLATFORM` (
         ON DELETE SET NULL ON UPDATE CASCADE
 );
 
--- Store Game Genres
 CREATE TABLE `GENRE` (
     `genre_id`          INT          AUTO_INCREMENT PRIMARY KEY,
     `genre_name`        VARCHAR(100) NOT NULL
 );
 
--- Stores games linked to genre
 CREATE TABLE `GAME` (
     `game_id`           INT          AUTO_INCREMENT PRIMARY KEY,
     `game_name`         VARCHAR(255) NOT NULL,
@@ -44,15 +44,13 @@ CREATE TABLE `GAME` (
         ON DELETE SET NULL ON UPDATE CASCADE
 );
 
--- Stores social platform size metrics
 CREATE TABLE `SOCIAL_PLATFORM` (
     `social_platform_id` INT          AUTO_INCREMENT PRIMARY KEY,
     `platform_name`      VARCHAR(100) NOT NULL
 );
 
+-- Data insertions
 
-
--- DATA INSERTIONS
 INSERT INTO `PLATFORM_TYPE` (`platform_type_id`, `type_name`) VALUES
 (1, 'Forum and Aggregator'),
 (2, 'VoIP and Chat Hub'),
@@ -97,10 +95,8 @@ INSERT INTO `GAME` (`game_id`, `game_name`, `genre_id`) VALUES
 (16, 'World of Warcraft',      5),
 (17, 'Street Fighter 6',       6);
 
+-- Verification queries
 
-
--- VERIFICATION QUERIES
---platforms with their type
 SELECT
     p.platform_id,
     p.primary_platform,
@@ -109,7 +105,6 @@ FROM `PLATFORM` p
 INNER JOIN `PLATFORM_TYPE` pt USING (platform_type_id)
 ORDER BY p.platform_id ASC;
 
--- games with their genre
 SELECT
     g.game_id,
     g.game_name,

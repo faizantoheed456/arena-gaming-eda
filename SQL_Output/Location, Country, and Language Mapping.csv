@@ -1,0 +1,25 @@
+location_id,region,country_name,language_name
+1,OC,Australia,English
+2,Unknown,United States,English
+3,AS,China,Chinese
+4,AS,Singapore,English
+5,AS,South Korea,Korean
+6,EU,Netherlands,English
+7,EU,Denmark,English
+8,SA,Chile,Spanish
+9,Unknown,Canada,English
+10,EU,Poland,English
+11,SA,Argentina,Spanish
+12,EU,Russia,Russian
+13,EU,Turkey,Arabic
+14,OC,New Zealand,English
+15,Unknown,Mexico,Spanish
+16,AS,Taiwan,Chinese
+17,SA,Brazil,Portuguese
+18,EU,United Kingdom,English
+19,EU,France,French
+20,EU,Sweden,English
+21,EU,Spain,Spanish
+22,SA,Colombia,Spanish
+23,AS,Saudi Arabia,Arabic
+24,AS,Japan,Japanese
