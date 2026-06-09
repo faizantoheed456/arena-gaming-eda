@@ -622,7 +622,7 @@ python arena_dashboard.py
 
 *Sole Participant & Project Author*
 
-[![GitHub](https://img.shields.io/badge/GitHub-FaizanToheed-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FaizanToheed)
+[![GitHub](https://img.shields.io/badge/GitHub-faizantoheed456-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/faizantoheed456)
 
 </div>
 
