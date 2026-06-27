@@ -23,6 +23,7 @@
 
 - [Project Overview](#-project-overview)
 - [Tech Stack](#-tech-stack)
+- [ML Model & Dashboard](#-ml-model--dashboard)
 - [Project Structure](#-project-structure)
 - [Dataset Summary](#-dataset-summary)
 - [EDA Sessions](#-eda-sessions)
@@ -67,6 +68,29 @@ This project demonstrates a complete **database engineering pipeline**:
 | **Jupyter Notebook** | EDA sessions (`.ipynb`) |
 | **VS Code** | Development environment |
 | **Dev Container** | Reproducible workspace (`.devcontainer`) |
+| **Streamlit** | Web application framework |
+| **Scikit-Learn** | Machine learning model training |
+
+---
+
+## 🤖 ML Model & Dashboard
+
+An integrated machine learning pipeline to predict gaming community tiers based on structural and engagement data.
+
+### 🔬 Model Details
+- **Model:** Random Forest Classifier
+- **Target:** `community_tier` (Amateur, Semi-Pro, Professional, Elite)
+- **Features:** Member count, active players, tournaments hosted, social metrics, etc.
+- **Techniques:** Stratified splitting, class weight balancing, feature engineering.
+
+### 🚀 Predicting Tiers (Streamlit Dashboard)
+The project includes an interactive web dashboard for real-time tier prediction.
+
+To run the dashboard:
+
+```bash
+streamlit run app.py
+```
 
 ---
 
